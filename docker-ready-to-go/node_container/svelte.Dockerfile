@@ -27,16 +27,16 @@ RUN npm run build
 EXPOSE $port
 
 # Set the environment variables for configuration
-ENV NODE_ENV=$node_env
+ENV NODE_ENV=${node_env}
 ENV PORT=5000
 
 # Set a default value for the environment variable
-ENV API_URL=$svelte_url
+ENV API_URL=${svelte_url}
 
 # Start the application
 CMD ["npm", "start"]
 
 # Add labels for better maintainability
-LABEL maintainer=$author
-LABEL version=$version
+LABEL maintainer=${author}
+LABEL version=${version}
 LABEL description="Dockerfile for running a Node.js application"

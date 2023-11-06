@@ -19,15 +19,15 @@ ARG react_default_value
 ARG author="Your name"
 ARG version="1.0"
 
-ENV REACT_APP_API_URL=$react_url
+ENV REACT_APP_API_URL=${react_url}
 
 # Expose the port that the React application will run on
-EXPOSE $port
+EXPOSE ${port}
 
 # Start the React application
 CMD ["npm", "start"]
 
 # Add labels for better maintainability
-LABEL maintainer=$author
-LABEL version=$version
+LABEL maintainer=${author}
+LABEL version=${version}
 LABEL description="Dockerfile for running a React.js application"
