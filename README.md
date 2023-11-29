@@ -34,6 +34,17 @@ We've provided a set of Dockerfiles covering common use cases. These Dockerfiles
 - [Node.js Application](./docker-ready-to-go/node_container/)
 - [Rust Application](./docker-ready-to-go/rust_container/)
 
+## Docker Wasm
+
+Simplest walkthrough in the web landscape to run a wasm container in Docker without pain and without Docker Desktop. 
+
+You just need four simple steps to run any wasm runtime.
+
+- How to configure docker for wasm [here](./docker-wasm/).
+- How to create a wasm image [COMING SOON]()
+
+It works for real!🚀
+
 ## Contributing
 
 We welcome contributions from the community! If you have a Docker tip, a useful Dockerfile, or an improvement to an existing one, feel free to open a pull request. Please make sure to follow our [contribution guidelines](CONTRIBUTING.md).
