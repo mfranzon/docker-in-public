@@ -1,6 +1,6 @@
 # Docker in Public
 
-Welcome to the Docker Tips and Tricks repository! Here you'll find a collection of useful Docker tips, tricks, and a set of ready-to-use Dockerfiles to help you streamline your containerization workflow.
+Whalecome to the Docker Tips and Tricks repository! Here you'll find a collection of useful Docker tips, tricks, and a set of ready-to-use Dockerfiles to help you streamline your containerization workflow.
 
 ## Table of Contents
 
